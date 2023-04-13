@@ -1,35 +1,39 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
+import { Nav, Button, Container } from 'react-bootstrap';
 
 import './VerticalMenu.css'
 
 const VerticalMenu = () => {
   return (
-    
-      <Nav className="flex-column" id='verticalMenu'
-    //    style={{border: 'none', boxShadow: 'none'}}
-      >
+
+    // <Container fluid>
+      <Nav className="flex-column" id='verticalMenu'>
         <Nav.Item>
-          <Nav.Link href="#" active className='nav-link-custom'>
-            Item 1
-          </Nav.Link>
+          <Button href="#" variant="outline-light">Inicio</Button>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#" className='nav-link-custom'>
-            Item 2
-          </Nav.Link>
+          <Button href="#" variant="outline-light">Explorar</Button>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#" className='nav-link-custom'>
-            Item 3
-          </Nav.Link>
+          <Button href="#" variant="outline-light">Comunidades</Button>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#" className='nav-link-custom'>
-            Item 4
-          </Nav.Link>
+          <Button href="#" variant="outline-light">Notificaciones</Button>
+        </Nav.Item>
+        <Nav.Item>
+          <Button href="#" variant="outline-light">Mensajes</Button>
+        </Nav.Item>
+        <Nav.Item>
+          <Button href="#" variant="outline-light">Guardado</Button>
+        </Nav.Item>
+        <Nav.Item>
+          <Button href="#" variant="outline-light">Perfil</Button>
+        </Nav.Item>
+        <Nav.Item>
+          <Button href="#" variant="outline-light">Más opciones</Button>
         </Nav.Item>
       </Nav>
+    // </Container>
   );
 };
 

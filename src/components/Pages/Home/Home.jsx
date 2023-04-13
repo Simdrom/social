@@ -1,6 +1,8 @@
 import { Container, Col } from 'react-bootstrap'
 import VerticalMenu from './VerticalMenu/VerticalMenu'
 
+import './Home.css'
+
 const Home = () => {
   return (
     <Container fluid>
