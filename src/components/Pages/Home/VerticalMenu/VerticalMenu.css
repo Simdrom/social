@@ -1,0 +1,10 @@
+body {
+  color: rgb(247, 249, 249);
+}
+
+.nav-link-custom {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: rgb(247, 249, 249) !important;
+}
